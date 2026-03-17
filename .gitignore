@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 Thumbs.db
 desktop.ini
-.streamlit/
+.streamlit/*
+!.streamlit/config.toml
