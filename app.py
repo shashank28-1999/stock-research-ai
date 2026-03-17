@@ -1,9 +1,10 @@
 import os
+import streamlit as st
+
 os.environ["GROQ_API_KEY"] = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
 os.environ["FINNHUB_API_KEY"] = st.secrets.get("FINNHUB_API_KEY", os.getenv("FINNHUB_API_KEY", ""))
 os.environ["ALPHAVANTAGE_API_KEY"] = st.secrets.get("ALPHAVANTAGE_API_KEY", os.getenv("ALPHAVANTAGE_API_KEY", ""))
 
-import streamlit as st
 import pandas as pd
 from utils.api_fetcher import get_all_data
 from utils.financial_calculations import calculate_wacc, calculate_dcf, calculate_ratios
