@@ -225,9 +225,10 @@ elif analyze and not ticker:
 else:
     st.markdown("""
     ### How to use
-    1. Enter any US stock ticker — AAPL, JPM, V, MSFT
+    1. Enter any stock ticker — AAPL, MSFT, RELIANCE.NS, HSBA.L
     2. Tap Analyze
     3. Get instant AI-powered fundamental analysis
+    Note: You must add exchange suffix for non-US stocks like .NS, .L, .HK
 
     **What you get**
     - DCF valuation with WACC
