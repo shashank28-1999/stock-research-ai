@@ -1,7 +1,7 @@
 import os
-os.environ["ALPHAVANTAGE_API_KEY"] = "your_key"
-os.environ["GROQ_API_KEY"] = "your_key"
-os.environ["FINNHUB_API_KEY"] = "your_key"
+os.environ["GROQ_API_KEY"] = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
+os.environ["FINNHUB_API_KEY"] = st.secrets.get("FINNHUB_API_KEY", os.getenv("FINNHUB_API_KEY", ""))
+os.environ["ALPHAVANTAGE_API_KEY"] = st.secrets.get("ALPHAVANTAGE_API_KEY", os.getenv("ALPHAVANTAGE_API_KEY", ""))
 
 import streamlit as st
 import pandas as pd
