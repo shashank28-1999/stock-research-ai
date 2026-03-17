@@ -1,0 +1,7 @@
+groq
+streamlit
+requests
+python-dotenv
+pandas
+yfinance
+finnhub-python
