@@ -63,7 +63,7 @@ st.divider()
 ticker = st.text_input(
     "Stock Ticker",
     placeholder="Enter a stock ticker",
-    max_chars=10,
+    max_chars=20,
     label_visibility="collapsed"
 )
 analyze = st.button("Analyze", use_container_width=True)
