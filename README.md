@@ -3,7 +3,7 @@
 An AI-powered stock research tool that delivers institutional-grade fundamental analysis in seconds. Built with Groq LLM (LLaMA 3.3), yFinance, Alpha Vantage, and Finnhub.
 
 ## Live Demo
-🔗 [stock-research-ai-shashank28-1999.streamlit.app](https://stock-research-ai-shashank28-1999.streamlit.app)
+🔗 [stock-research-ai-shashank28-1999.streamlit.app](https://stock-research-ai-sarge28-1999.streamlit.app/)
 
 ## What It Does
 - **DCF Valuation** — Calculates intrinsic value using Discounted Cash Flow model
