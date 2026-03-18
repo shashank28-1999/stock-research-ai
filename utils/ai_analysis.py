@@ -34,7 +34,7 @@ FINANCIAL METRICS:
 - Net Income: {net_income}
 - Total Assets: {total_assets}
 - WACC: {round(wacc * 100, 2)}%
-- DCF Intrinsic Value (total): ${dcf_value:,.0f} (based on Free Cash Flow of ${free_cash_flow:,.0f})
+- DCF Intrinsic Value (total): {f"${dcf_value:,.0f}" if dcf_value else "N/A (Negative FCF)"} (based on Free Cash Flow of {f"${free_cash_flow:,.0f}" if free_cash_flow else "N/A"})
 
 Provide exactly the following sections with these headers:
 
